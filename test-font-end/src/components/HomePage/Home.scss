@@ -1,0 +1,413 @@
+// .container-main_home {
+.container-main-home_body {
+    margin-top: 60px;
+    padding: 0 230px;
+    .text-title {
+        font-family: Helvetica;
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 80px;
+        letter-spacing: 0em;
+        text-align: left;
+        // width: 48%;
+        width: 71%;
+        color: #212353;
+    }
+    .text-img {
+        display: flex;
+        .text-button {
+            width: 31%;
+            .text {
+                font-family: Avenir;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 29px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #4B5D68;
+                margin-top: 40px;
+            }
+            .btn-home {
+                font-family: Avenir;
+                font-size: 18px;
+                font-weight: 800;
+                line-height: 29px;
+                letter-spacing: 0em;
+                text-align: center;
+                color: #FFFFFF;
+                padding: 10px 25px;
+                border-radius: 30px;
+                background: #9C69E2;
+                border: none;
+                outline: none;
+                margin-top: 30px;
+            }
+        }
+        .img-data {
+            width: 65%;
+            height: 300px;
+            margin-top: -38px;
+        }
+    }
+    .feature-list {
+        width: 56%;
+        margin: 0 auto;
+        padding-top: 100px;
+        .feature-list-title_name {
+            font-family: Helvetica;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 52px;
+            letter-spacing: 0em;
+            text-align: center;
+            display: block;
+            color: #212353;
+        }
+        .feature-list-title_text {
+            font-family: Avenir;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 29px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #4B5D68;
+            padding: 15px;
+        }
+    }
+    .feature-list-text_data {
+        display: flex;
+        width: 100%;
+        gap: 20px;
+        .feature-list-search_data {
+            display: flex;
+            width: 50%;
+            // border: 1px solid red;
+            padding-top: 25px;
+            // align-items: end;
+            // justify-content: center;
+            .img-search_data {
+                width: 228px;
+                height: 207px;
+                position: relative;
+                top: 60px;
+            }
+            .text-search_data {
+                padding: 43px 70px 63px 145px;
+                margin-left: -127px;
+                background-color: rgba(104, 201, 186, 0.1);
+                border-radius: 50px;
+                // border-bottom: 50px solid rgba(104, 201, 186, -0.9);
+                // border-left: 180px solid rgba(104, 201, 186, -0.9);
+                // border-right: 25px solid rgba(104, 201, 186, -0.9);
+                // background-color: rgba(104, 201, 186, 0.1);
+                // padding-top: 43px;
+                .text-search_title {
+                    font-family: Helvetica;
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: 31.2px;
+                    text-align: left;
+                    color: #212353;
+                }
+                .text-search-content {
+                    font-family: Avenir;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 25.6px;
+                    text-align: left;
+                    color: #4B5D68;
+                }
+                .forward {
+                    font-family: Avenir;
+                    font-size: 16px;
+                    font-weight: 800;
+                    line-height: 25.6px;
+                    letter-spacing: 0.005em;
+                    text-align: left;
+                    color: #212353;
+                }
+            }
+        }
+        .feature-list-new_data {
+            display: flex;
+            width: 50%;
+            // border: 1px solid red;
+            padding-top: 25px;
+            // align-items: end;
+            // justify-content: center;
+            .img-new_data {
+                width: 228px;
+                height: 207px;
+                position: relative;
+                top: 60px;
+            }
+            .text-new {
+                padding: 43px 67px 63px 145px;
+                margin-left: -127px;
+                background-color: rgba(156, 105, 226, 0.1);
+                border-radius: 50px;
+                .text-new_title {
+                    font-family: Helvetica;
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: 31.2px;
+                    text-align: left;
+                    color: #212353;
+                }
+                .text-new-content {
+                    font-family: Avenir;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 25.6px;
+                    text-align: left;
+                    color: #4B5D68;
+                }
+                .forward-new {
+                    font-family: Avenir;
+                    font-size: 16px;
+                    font-weight: 800;
+                    line-height: 25.6px;
+                    letter-spacing: 0.005em;
+                    text-align: left;
+                    color: #212353;
+                }
+            }
+        }
+    }
+    .text-slides {
+        margin-top: 93px;
+        background: #9C69E2;
+        padding: 70px 0px;
+        border-radius: 50px;
+        .text-slides_title {
+            font-family: Helvetica;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 52px;
+            text-align: left;
+            text-align: center;
+            padding-left: 80px;
+            color: #FFFFFF;
+        }
+        .slides {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            padding: 40px;
+            i {
+                color: white;
+            }
+            .slides-img_text {
+                background: #FFFFFF;
+                border-radius: 20px;
+                padding: 50px 80px;
+                display: flex;
+                gap: 35px;
+                .img-name_slides {
+                    height: 100%;
+                }
+                .text-slides-personal_information {
+                    width: 47%;
+                    .name {
+                        font-family: Avenir;
+                        font-size: 18px;
+                        font-weight: 900;
+                        line-height: 28.8px;
+                        letter-spacing: 0.005em;
+                        text-align: left;
+                        color: #212353;
+                        padding-top: 20px;
+                    }
+                    .email {
+                        font-family: Avenir;
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 22.4px;
+                        letter-spacing: 0.01em;
+                        text-align: left;
+                        color: #9C69E2;
+                    }
+                    .text-name {
+                        font-family: Avenir;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 32.4px;
+                        text-align: left;
+                        color: #4B5D68;
+                    }
+                }
+            }
+        }
+        .dot-slides {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            color: white;
+            .dot-1 {
+                color: #F063B8;
+                // font-size: 10px;
+            }
+        }
+    }
+}
+
+.border {
+    margin: 90px 0px 100px;
+    border: 1px solid #4B5D68;
+    opacity: 20%;
+}
+
+.footer {
+    padding: 0 230px;
+    height: 100%;
+    .block {
+        display: flex;
+        .block-1 {
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            .logo-Company_name {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                padding-top: 17px;
+                margin-bottom: 20px;
+                .logo-footer {
+                    display: flex;
+                    align-items: end;
+                    gap: 13px;
+                    .logo-round-footer {
+                        width: 19.88px;
+                        height: 19.88px;
+                        border-radius: 50%;
+                        background: #9C69E2;
+                    }
+                    .logo-rectangular-footer {
+                        width: 19.88px;
+                        height: 34.78px;
+                        border-radius: 20px;
+                        background: #F063B8;
+                    }
+                }
+                .Company-name {
+                    font-family: Avenir;
+                    font-size: 20px;
+                    font-weight: 900;
+                    line-height: 32px;
+                    text-align: left;
+                    color: #212353;
+                }
+            }
+            .address_footer {
+                font-family: Avenir;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 28.8px;
+                letter-spacing: 0.01em;
+                text-align: left;
+                color: #212353;
+                padding: 10px 0 20px 0;
+            }
+            .email_footer {
+                font-family: Avenir;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 28.8px;
+                letter-spacing: 0.01em;
+                text-align: left;
+                color: #212353;
+            }
+        }
+        .block-2 {
+            width: 20%;
+            li {
+                list-style-type: none;
+            }
+            .text_block {
+                font-family: Avenir;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 40px;
+                text-align: left;
+                color: #212353;
+            }
+            .block-title {
+                font-family: Avenir;
+                font-size: 16px;
+                font-weight: 900;
+                line-height: 25.6px;
+                text-align: left;
+                color: #212353;
+                margin-bottom: 20px;
+            }
+        }
+        .block-3 {
+            width: 20%;
+            li {
+                list-style-type: none;
+            }
+            .text_block {
+                font-family: Avenir;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 40px;
+                text-align: left;
+                color: #212353;
+            }
+            .block-title {
+                font-family: Avenir;
+                font-size: 16px;
+                font-weight: 900;
+                line-height: 25.6px;
+                text-align: left;
+                color: #212353;
+                margin-bottom: 20px;
+            }
+        }
+        .block-4 {
+            width: 20%;
+            display: flex;
+            justify-content: end;
+            li {
+                list-style-type: none;
+            }
+            .block-title {
+                font-family: Avenir;
+                font-size: 16px;
+                font-weight: 900;
+                line-height: 25.6px;
+                text-align: left;
+                color: #212353;
+                margin-bottom: 20px;
+            }
+            .img-footer {
+                display: flex;
+                gap: 10px;
+                .img-footer_media {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    background: #4B5D68;
+                    opacity: 20%;
+                }
+            }
+        }
+    }
+    .chat-text_footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        .text-footer_Registration {
+            font-family: Avenir;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 21.6px;
+            letter-spacing: 0.01em;
+            text-align: left;
+            color: #212353;
+            width: 26%;
+        }
+    }
+}
