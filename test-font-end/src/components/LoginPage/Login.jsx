@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import './Login.scss'
-import { login } from '../../service/UserSevice'
 import {useSelector, useDispatch} from 'react-redux'
 import { useNavigate } from "react-router-dom";
 import { fetLoginUser } from '../../redux/slices/userSlice';

@@ -1,21 +1,12 @@
-import { useEffect } from 'react';
 import './App.css';
 import Header from './components/HeaderComponent/Header';
-import {useSelector, useDispatch} from 'react-redux'
 import AppRoutes from './routes/AppRoutes';
-import { fetLoginUser } from './redux/slices/userSlice';
-
+// import jwt_decode from "jwt-decode";
+import { jwtDecode } from "jwt-decode";
+import {refreshToken} from './service/UserSevice';
+import axios from 'axios';
 function App() {
-  const dispatch = useDispatch()
-  useEffect(() => {
-    let token = localStorage.getItem('token')
-      if(token){
-        dispatch(fetLoginUser(token))
-      }
-
-  })
-
-
+  // // axiosClient.interceptors.request.use(async (config) => {
 
   return (
     <div className="App">
@@ -27,3 +18,4 @@ function App() {
 }
 
 export default App;
+

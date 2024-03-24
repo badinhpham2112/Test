@@ -7,13 +7,14 @@ export const fetLoginUser = createAsyncThunk(
     try {
       const res = await login(name);
       if (res && res.data.access_token) {
+        console.log(res)
         localStorage.setItem('token', res.data.access_token);
-        return { name: name, auth: true }; // Trả về một object chứa dữ liệu cần thiết
+        return { name: name, access_token: res.data.access_token, refresh_token: res.data.refresh_token, auth: true }; 
       } else {
         throw new Error("không tìm thấy access token");
       }
     } catch (e) {
-      return thunkAPI.rejectWithValue(e.message); // Xử lý lỗi và trả về giá trị mặc định
+      return thunkAPI.rejectWithValue(e.message); 
     }
   }
 );
@@ -21,6 +22,8 @@ export const fetLoginUser = createAsyncThunk(
 const initialState = {
   name: '',
   auth: false,
+  access_token: localStorage.getItem('access_token') || '',
+  refresh_token: localStorage.getItem('refresh_token') || '',
   isLoading: false,
   isError: false
 };
@@ -37,6 +40,8 @@ export const userSlice = createSlice({
       })
       .addCase(fetLoginUser.fulfilled, (state, action) => {
         state.name = action.payload.name;
+        state.access_token = action.payload.access_token
+        state.refresh_token = action.payload.refresh_token
         state.auth = action.payload.auth;
         state.isLoading = false;
         state.isError = false;
